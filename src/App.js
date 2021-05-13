@@ -76,7 +76,7 @@ function App() {
     <BrowserRouter>
       <React.Fragment>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/container-app" component={Home} />
           <Route exact path="/cat/:greeting" component={GreetingCat} />
         </Switch>
       </React.Fragment>
